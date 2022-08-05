@@ -65,7 +65,13 @@ git push
 
 ## Workflow
 
-Para o desenvolvimento do projeto, todas as branches que correspondem histórias do usuário, deverão ser incluídas nas branches que correspondem aos épicos, todas as branches que correspondem aos épicos, deverão ser incluídas na *develop*, e no processo de lançamento da *release* a branch develop deverá ser incluída na *main*, ou seja, as branches menores serão incluídas nas branches maiores.
+Para o desenvolvimento do projeto:
+
+* Todas as branches que correspondem histórias do usuário deverão ser incluídas nas branches que correspondem aos épicos;
+* Todas as branches que correspondem aos épicos deverão ser incluídas na *develop*;
+* No processo de lançamento da *release* a branch develop deverá ser incluída na *main*;
+
+Ou seja, as branches menores serão incluídas nas branches maiores seguindo a ordem de uma pirâmide .
 
 
 #### Exemplo:
