@@ -4,7 +4,8 @@ O objetivo deste guia é de apresentar de forma resumida os padrões/convençõe
 se criar harmonia, providenciar um repositório mais organizado e permitir a fácil leitura . 
 
 
-## Nomenclatura de branch remota
+## Branches
+### Nomenclatura de branch remota
 
 Para a nomenclatura de uma (branch)[https://git-scm.com/docs/git-branch] **remota** , utilizamos a seguinte convenção:
 
@@ -17,7 +18,7 @@ em que:
 * *update* corresponde a atualização de uma funcionalidade já existente;
 * *epico* corresponde ao épico;
 
-### Exemplos:
+#### Exemplos:
 
 Para adicionar uma funcionalidade (que seja num épico), abra o terminal e digite:
 
@@ -30,8 +31,7 @@ git push origin feature/acesso_usuario
 ```
 Lembrando que o épico *acesso_usuario* pode ser sub-dividido em *login_usuario*, *cadastro_usuario*, e *esqueceu_senha_usuario*, por exemplo.
 
-
-## Nomenclatura de branch local
+### Nomenclatura de branch local
 
 Para a nomenclatura de uma (branch)[https://git-scm.com/docs/git-branch] **local** , utilizamos a seguinte convenção:
 
@@ -42,7 +42,7 @@ em que:
 * *nome_utilizador* corresponde ao nome do usuário da conta do GitHub;
 * *historia_usuario* corresponde a uma determinada história do usuário , ou seja, a funcionalidade mais atômica/simples;
 
-### Exemplos:
+#### Exemplos:
 
 Para adicionar uma funcionalidade (que seja uma história do usuário), abra o terminal e digite:
 
@@ -61,4 +61,20 @@ git checkout feature/acesso_usuario
 git pull
 git merge roddas/feature/acesso_usuario/cadastro_usuario
 git push
+```
+
+## Workflow
+
+Para o desenvolvimento do projeto, todas as branches que correspondem histórias do usuário, deverão ser incluídas nas branches que correspondem aos épicos, todas as branches que correspondem aos épicos, deverão ser incluídas na *develop*, e no processo de lançamento da *release* a branch develop deverá ser incluída na *main*, ou seja, as branches menores serão incluídas nas branches maiores.
+
+
+#### Exemplo:
+
+
+```
+LOCAL                                                      REMOTO (no GitHub)      
+-----------------------------------------------------------------------------------------------------
+roddas/feature/acesso_usuario/login_usuario           
+roddas/feature/acesso_usuario/cadastro_usuario        ->  feature/acesso_usuario  ->  develop ->  main
+roddas/feature/acesso_usuario/esqueceu_senha_usuario      feature/outra_feature
 ```
