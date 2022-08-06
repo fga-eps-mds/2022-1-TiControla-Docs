@@ -10,7 +10,9 @@ se criar harmonia, providenciar um repositório mais organizado e permitir a fá
 
 Para a nomenclatura de uma [branch](https://git-scm.com/docs/git-branch) **remota** , utilizamos a seguinte convenção:
 
-*<feature/fix/update>/<epico>*
+```
+<feature/fix/update>/<epico>
+ ```
 
 em que:
 
@@ -36,7 +38,9 @@ Lembrando que o épico *acesso_usuario* pode ser sub-dividido em *login_usuario*
 
 Para a nomenclatura de uma [branch](https://git-scm.com/docs/git-branch) **local** , utilizamos a seguinte convenção:
 
-*<nome_utilizador>/<feature/fix/update>/<epico/>/<historia_usuario>*
+```
+<nome_utilizador>/<feature/fix/update>/<epico/>/<historia_usuario>
+```
 
 em que:
 
@@ -91,7 +95,9 @@ roddas/feature/acesso_usuario/esqueceu_senha_usuario      feature/outra_feature
 
 Para a criação de um commit, seguimos a seguinte convenção:
 
-*<nome_utilizador>/<feature/fix/update>/<historia_usuario> : <descricao>*
+```
+<nome_utilizador>/<feature/fix/update>/<historia_usuario> : <descricao>
+```
 
 #### Exemplo:
 
