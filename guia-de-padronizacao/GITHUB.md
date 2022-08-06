@@ -8,7 +8,7 @@ se criar harmonia, providenciar um repositório mais organizado e permitir a fá
 
 ### Nomenclatura de branch remota
 
-Para a nomenclatura de uma (branch)[https://git-scm.com/docs/git-branch] **remota** , utilizamos a seguinte convenção:
+Para a nomenclatura de uma (branch](https://git-scm.com/docs/git-branch] **remota** , utilizamos a seguinte convenção:
 
 *<feature/fix/update>/<epico>*
 
@@ -34,7 +34,7 @@ Lembrando que o épico *acesso_usuario* pode ser sub-dividido em *login_usuario*
 
 ### Nomenclatura de branch local
 
-Para a nomenclatura de uma (branch)[https://git-scm.com/docs/git-branch] **local** , utilizamos a seguinte convenção:
+Para a nomenclatura de uma [branch](https://git-scm.com/docs/git-branch) **local** , utilizamos a seguinte convenção:
 
 *<nome_utilizador>/<feature/fix/update>/<epico/>/<historia_usuario>*
 
@@ -131,6 +131,6 @@ Adicionar o código de testes do login de usuário
 ```
 
 ### Referências
-* (Commit Best Practices)[https://microsoft.github.io/code-with-engineering-playbook/source-control/#commit-best-practices]
-* (Naming branches)[https://microsoft.github.io/code-with-engineering-playbook/source-control/naming-branches/]
-* (Conventional Commits)[https://www.conventionalcommits.org/en/v1.0.0/#summary]
+* [Commit Best Practices](https://microsoft.github.io/code-with-engineering-playbook/source-control/#commit-best-practices)
+* [Naming branches](https://microsoft.github.io/code-with-engineering-playbook/source-control/naming-branches/)
+* [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
