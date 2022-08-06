@@ -130,3 +130,7 @@ Adicionar o código de testes do login de usuário
 - Ajuda o time de revisão a documentar o código
 ```
 
+### Referências
+* (Commit Best Practices)[https://microsoft.github.io/code-with-engineering-playbook/source-control/#commit-best-practices]
+* (Naming branches)[https://microsoft.github.io/code-with-engineering-playbook/source-control/naming-branches/]
+* (Conventional Commits)[https://www.conventionalcommits.org/en/v1.0.0/#summary]
