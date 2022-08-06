@@ -10,3 +10,8 @@
 5. [Milena Beatriz Aires de Santana Dias](https://github.com/milenaaires/)
 6. [Rodolfo Cabral Neves](https://github.com/roddas/)
 7. [Rodrigo de Andrade Lima Orlandi](https://github.com/OrlandiRodrigo/)
+
+# Lista de servidores
+
+* [Servidor Front-End](https://github.com/fga-eps-mds/TI-Controla-Front-End)
+* [Servidor Front-Back](https://github.com/fga-eps-mds/TI-Controla-Back-End)
