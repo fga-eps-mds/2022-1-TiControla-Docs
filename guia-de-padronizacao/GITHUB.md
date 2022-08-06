@@ -8,7 +8,7 @@ se criar harmonia, providenciar um repositório mais organizado e permitir a fá
 
 ### Nomenclatura de branch remota
 
-Para a nomenclatura de uma (branch](https://git-scm.com/docs/git-branch) **remota** , utilizamos a seguinte convenção:
+Para a nomenclatura de uma [branch](https://git-scm.com/docs/git-branch) **remota** , utilizamos a seguinte convenção:
 
 *<feature/fix/update>/<epico>*
 
