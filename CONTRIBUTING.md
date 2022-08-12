@@ -103,7 +103,7 @@ TODO
 CI (continuous integration) significa integração contínua, e CD (continuous deployment) significa entrega contínua.
 
 ### 2.1.1 Frameworks
-TODO: bora usar qual? actions? jenkins? circle ci? travis ci teve treta com o github.
+Decidimos usar o [GitHub Actions](https://github.com/features/actions) para fazer a integração e a entrega contínua. Não chegamos a explorar alternativas como Jenkins, CircleCI e TravisCI.
 
 ## 2.2 Testes
 ### 2.2.1 Django Rest Framework (DRF)
