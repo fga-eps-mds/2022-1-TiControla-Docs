@@ -34,7 +34,7 @@ A proposta é um aplicativo de dispositivos móveis (mobile) uma ferramenta que 
 
 # <a id="prop"></a>3 - Propósito e justificativa do projeto
 
-Proposta….
+O principal propósito da aplicação é que frequentemente nos encontramos com uma falta de controle financeiro. E isso pode nos levar a um acúmulo das dívidas e consequentemente um almento na cobrança de juros em cima destas dívidas. Em determinados casos, a situação pode se agravar e um "simples descontrole financeiro" pode se tornar no comumente conhecido pelo brasileiro como "Bola de neve". Com isso posto, fazendo um controle mais assíduo sob as finanças dos usuários a aplicação TiControla serve como uma ferramenta para evitar esse tipo de problema da socidade brasileira.
 
 # 4 - <a id="requi"></a>Requisitos de alto nível
 
