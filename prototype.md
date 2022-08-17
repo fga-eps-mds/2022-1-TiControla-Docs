@@ -5,4 +5,41 @@ Este documento contemplará as informações acerca de quaisquer protótipos que
 
 ### 2.1 Telas
 
-![https://user-images.githubusercontent.com/(...).png](https://user-images.githubusercontent.com/(...).png)
+<div 
+style="
+    display: flex;
+    /* float: left; */
+    margin-right: 10px;"
+>
+    <div style="margin-right: 10px;">
+        <img 
+            src="images\Login.png" 
+            alt="TiControla icon"
+            style="width: 200px; 
+            /* float: left; */
+            margin-right: 10px;"
+        />
+    </div>
+    <div style="margin-right: 10px;">
+        <img 
+            src="images\Perfil.png" 
+            alt="TiControla icon"
+            style="width: 200px; 
+            /* float: left; */
+            margin-right: 10px;"
+        />
+    </div>
+    <div>
+        <img 
+            src="images\Home.png" 
+            alt="TiControla icon"
+            style="width: 200px; 
+            /* float: left; */
+            margin-right: 10px;"
+        />
+    </div>
+</div>
+
+Link do protótipo do projeto completo: 
+
+https://www.figma.com/file/qTrJ6kkLHY6i9GkicwEGQP/TiControla?node-id=0%3A1
