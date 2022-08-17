@@ -135,7 +135,7 @@ Pessoas consumistas que tem dificuldades de manter seus gastos sob controle, pes
 
 Disciplina ministrada e orientada pela Prof. Carla S. R. Aguiar, do período 2020/2.
 
-|Nome      |Github|Eamil                    |
+|Nome      |Github|Email                    |
 |----------|------|-------------------------|
 |Leonardo Michalski Miranda|http://github.com/leommiranda|leonardomichalskim@gmail.com|
 |Milena Beatriz Aires de Santana Dias|https://github.com/MaltaLiz/|mbadsdias@gmail.com      |

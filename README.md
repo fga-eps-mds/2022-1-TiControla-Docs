@@ -11,7 +11,7 @@
 
 # Lista de integrantes do grupo 1
 
-|Nome      |Github|Eamil                    |
+|Nome      |Github|Email                    |
 |----------|------|-------------------------|
 |Leonardo Michalski Miranda|http://github.com/leommiranda|leonardomichalskim@gmail.com|
 |Milena Beatriz Aires de Santana Dias|https://github.com/MaltaLiz/|mbadsdias@gmail.com      |
@@ -25,6 +25,7 @@
 
 <div 
 style="
+    width: 900px;
     display: flex;
     /* float: left; */
     margin-right: 10px;"

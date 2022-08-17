@@ -7,6 +7,7 @@ Este documento contemplará as informações acerca de quaisquer protótipos que
 
 <div 
 style="
+    width: 900px;
     display: flex;
     /* float: left; */
     margin-right: 10px;"
