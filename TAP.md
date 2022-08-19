@@ -1,13 +1,4 @@
-# TAP
-
-# ✅ Termo de Abertura do Projeto
-
-|Data      |Versão|Descrição     |Autor(es)               |
-|----------|------|--------------|------------------------|
-|13/08/2022|0.1   |Versão inicial|Mateus de Siqueira Silva|
-|          |0.2   |              |                        |
-|          |0.3   |              |                        |
-
+# Termo de Abertura do Projeto
 
 ## Sumário
 
