@@ -13,7 +13,7 @@
 
 |Nome      |Github|Email                    |
 |----------|------|-------------------------|
-|Leonardo Michalski Miranda|http://github.com/leommiranda|leonardomichalskim@gmail.com|
+|Leonardo Michalski Miranda|http://github.com/leomichalski|leonardomichalskim@gmail.com|
 |Milena Beatriz Aires de Santana Dias|https://github.com/MaltaLiz/|mbadsdias@gmail.com      |
 |Rodrigo de Andrade Lima Orlandi|https://github.com/OrlandiRodrigo|digoalorlandi@gmail.com  |
 |Lizandra Regis Malta|https://github.com/MaltaLiz|lizlrmalta@gmail.com     |
