@@ -35,10 +35,13 @@ A aplicação possui vários núcleos independentes e os mesmos interajem-se ent
 Responsável pelo recebimento e processamento das demandas realizadas pelos usuários do frontend.
 
 ### 2.1.1. ![Django REST Framework]()
-TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido.
+TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido. 
 
 ### 2.1.2. ![MySQL]()
 TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido.
+
+### 2.1.3. ![Gunicorn](https://gunicorn.org/)
+O comando padrão do DRF para começar um servidor ("python manage.py runserver") não foi feito para ser usado na produção. Ele não passou por testes de segurança nem testes de performance. Além disso, os desenvolvedores do DRF atualmente não tem intenção de fazer um comando que crie um servidor seguro ([fonte](https://docs.djangoproject.com/en/4.0/ref/django-admin/#runserver)). Logo, tivemos que substituir tal comando e decidimos usar o gunicorn pela grande quantidade de tutoriais disponíveis na internet que o utilizam.
 
 
 ### 2.2. Aplicativo mobile
