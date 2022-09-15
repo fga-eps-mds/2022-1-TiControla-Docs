@@ -83,10 +83,36 @@ nome da branch: django-api-authentication
 ```
 
 ### 1.2.2 Code reviews
-TODO
+
+<strong>Todos</strong>
+
+- Aceite que muitas decisões de programação são opiniões. Discuta as compensações, de sua preferência, e chegue a uma resolução rapidamente.
+- Pergunte; não faça exigências. ("O que você acha de nomear isso :user_id?")
+- Solicite esclarecimentos. ("Eu não entendi. Você pode esclarecer?")
+- Evite a propriedade seletiva do código. ("meu", "não meu", "seu")
+- Evite usar termos que possam ser vistos como se referindo a características pessoais. ("burro", "estúpido"). Suponha que todos sejam atraentes, inteligentes e bem-intencionados.
+- Seja explícito. Lembre-se que as pessoas nem sempre entendem suas intenções online.
+- Seja humilde. ("Não tenho certeza - vamos procurar.")
+- Não use hipérbole. ("sempre", "nunca", "infinitamente", "nada")
+- Não use sarcasmo.
+- Fale pessoalmente se houver muitos comentários "Não entendi" ou "Solução alternativa:". Poste um comentário de acompanhamento resumindo a discussão offline.
 
 ### 1.2.3 Padrão de pull request
-TODO
+
+<strong>Descrição:</strong>
+Escreva uma breve descrição sobre o que o Pull Request resolve
+
+<strong>Porque este Pull Request é necessário?</strong>
+Descreva o motivo da realização do documento
+
+<strong>Critérios de aceitação
+(Exemplos de critérios de aceitação)</strong>:
+
+1. [ ] Todas as informações necessárias estão presentes?
+2. [ ] O documento está escrito de forma concisa?
+3. [ ] A ortografia do documento está correta?
+
+Resolve #(numero_da_issue)
 
 ## 1.3 Issues
 ### 1.3.1 Issue templates
@@ -116,10 +142,7 @@ TODO
 ### 2.3.1 Python
 [PEP 8](https://peps.python.org/pep-0008/) com [autopep8](https://pypi.org/project/autopep8/)
 
-### 2.3.2 Typescript
-TODO
-
-### 2.3.3 Dockerfile
+### 2.3.2 Dockerfile
 [hadolint](https://github.com/hadolint/hadolint)
 
 ## 2.4 Ambiente de desenvolvimento
