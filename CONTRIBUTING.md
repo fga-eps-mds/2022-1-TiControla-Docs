@@ -114,7 +114,7 @@ O ideal é que todas as issues sigam os templates, porém os templates são só 
 
 ## 1.5 Releases
 ### 1.5.1 Versioning
-TODO
+Cada tag de cada release segue o seguinte padrão: vx.y.z. Se o valor x for menor do que 1, significa que a release não está disponível ao público ainda. O valor y deve ser incrementado em 1 quando houver mudanças que alteram como o usuário usa o aplicativo ou a API (mudança na interface do app, mudança nos endpoints da API e afins). O valor z deve ser incrementado em 1 quando as mudanças feitas não alterarem como o usuário usa o aplicativo ou a API (otimização de código, resolver bugs de segurança e afins).
 
 # 2. Integração e entrega de código
 ## 2.1 CI/CD 
@@ -126,9 +126,6 @@ Decidimos usar o [GitHub Actions](https://github.com/features/actions) para faze
 ## 2.2 Testes
 ### 2.2.1 Django Rest Framework (DRF)
 O DRF auxilia de certa forma a implementação de testes, visto que descreve em sua documentação oficial uma série de classes e recursos com este fim, como a APIClient e APITestCase.
-
-### 2.2.2 React Native
-TODO
 
 ## 2.3 Formatação de código
 ### 2.3.1 Python
