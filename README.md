@@ -1,5 +1,6 @@
 # TI Controla
 ## Aplicativo de Finanças Pessoais
+Bem vindo/a ao site do TI Controla, aplicativo desenvolvido pelos estudantes de Métodos de Desenvolvimento de Software da FGA.
 
 # Lista de integrantes do grupo 1
 
