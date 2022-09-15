@@ -34,11 +34,11 @@ A aplicação possui vários núcleos independentes e os mesmos interajem-se ent
 ### 2.1. Servidor central
 Responsável pelo recebimento e processamento das demandas realizadas pelos usuários do frontend.
 
-### 2.1.1. ![Django REST Framework]()
+### 2.1.1. Django REST Framework
 Django é um framework web Python de alto nível que permite o rápido desenvolvimento de sites seguros e de fácil manutenção. Com isto dito, o Django REST Framework ou DRF é uma biblioteca que permite a construção de APIs REST utilizando a estrutura do Django. O foco aqui é o desenvolvimento de [web API's](https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es) de forma simples e ágil. Segundo [a documentação oficial](https://www.django-rest-framework.org/#:~:text=Django%20REST%20framework%20is%20a,toolkit%20for%20building%20Web%20APIs.&text=The%20Web%20browsable%20API%20is,and%20non%2DORM%20data%20sources.), o Django Rest gera uma API navegável que auxilia na usabilidade para os desenvolvedores. Além disso, possui um sistema de autenticação e [serialização](https://cursos.alura.com.br/forum/topico-serializacao-e-desserializacao-110845) dos dados.
 
 Utilizamos essa biblioteca para o desenvolvimento, pois ela é gratuita e de código aberto, tem uma comunidade próspera e ativa, ótima documentação e muitas opções de suporte gratuito e pago. Além de ser completa, versátil e segura.
-### 2.1.2. ![MySQL]()
+### 2.1.2. MySQL
 O MySQL é um sistema gerenciador de banco de dados relacional de código aberto usado na maioria das aplicações gratuitas para gerir suas bases de dados. Possui flexibilidade, facilidade de uso e alto desempenho.
 
 Visto que o projeto é de código aberto utilizamos o MySQL como gerenciador dos bancos de dados do sistema.
@@ -47,11 +47,11 @@ Visto que o projeto é de código aberto utilizamos o MySQL como gerenciador dos
 ### 2.2. Aplicativo mobile
 Responsável pela visualização de dados e interação com o usuário.
 
-### 2.2.1. ![React Native]()
+### 2.2.1. React Native
 Baseado no [React](https://pt-br.reactjs.org), framework JS para desenvolvimento web, o [React Native](https://reactnative.dev) possibilita a criação de aplicações móvel multiplataforma (Android e iOS) utilizando apenas Javascript. Porém, diferente de outros frameworks com esta mesma finalidade (Cordova, por exemplo), todo o código desenvolvido com o React Native é convertido para linguagem nativa do sistema operacional, o que torna o app muito mais fluido.
 
 Levando em consideração que o núcleo do projeto é um aplicativo para smartphones o react native é ferramenta base para o projeto.
-### 2.2.2. ![Expo]()
+### 2.2.2. Expo
 O [Expo](https://expo.dev) é uma ferramenta que facilita no desenvolvimento de aplicativos mobile com **React Native**, já que ele abstrai todas as partes complexas de configuração do ambiente e te permite acesso rápido e fácil a várias API’s nativas. Com ele é possível usar a API de câmera e notificações, por exemplo, sem muita dificuldade, já que não é necessário fazer nenhuma configuração de API.
 
 Utilizamos o expo para auxiliar o React Native no uso dos módulos dos smartphones.
