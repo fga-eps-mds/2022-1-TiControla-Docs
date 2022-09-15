@@ -1,4 +1,4 @@
-## Página Principal
+
 Bem vindo/a! Este é o site do TI Controla, um aplicativo desenvolvido pelos estudantes de Métodos de Desenvolvimento de Software da FGA.
 
 # Lista de integrantes do Grupo:
