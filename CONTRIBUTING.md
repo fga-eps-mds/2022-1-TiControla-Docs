@@ -129,7 +129,7 @@ O DRF auxilia de certa forma a implementação de testes, visto que descreve em 
 
 ## 2.3 Formatação de código
 ### 2.3.1 Python
-[PEP 8](https://peps.python.org/pep-0008/) com [autopep8](https://pypi.org/project/autopep8/)
+[PEP 8](https://peps.python.org/pep-0008/)
 
 ### 2.3.2 Typescript
 [eslint](https://eslint.org/)
