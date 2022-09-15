@@ -1,8 +1,7 @@
-# TI Controla
 ## Aplicativo de Finanças Pessoais
 Bem vindo/a! Este é o site do TI Controla, um aplicativo desenvolvido pelos estudantes de Métodos de Desenvolvimento de Software da FGA.
 
-# Lista de integrantes do grupo 1
+# Lista de integrantes do Grupo:
 
 1. [Henrique Galdino Couto](https://github.com/hgaldino05/)
 2. [Leonardo Michalski Miranda](https://github.com/leommiranda/)
