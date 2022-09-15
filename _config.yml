@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Repositório de documentos do projeto TiControla, seu auxiliador de finanças pessoais.
 baseurl: "/2022-1-TiControla-Docs/" # the subpath of your site, e.g. /blog
 url: "https://2022-1-TiControla.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  fga-eps-mds/2022-1-TiControla-FrontEnd
+twitter_username: iDontExist
+github_username:  OrlandiRodrigo
 
 # Build settings
 theme: minima
