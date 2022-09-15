@@ -5,23 +5,20 @@ Este documento contemplará as informações acerca de quaisquer protótipos que
 
 ### 2.1 Telas
 
-<div 
-style="
-    width: 900px;
-    display: flex;
-    /* float: left; */
-    margin-right: 10px;"
->
-    <div style="margin-right: 10px;">
+<table>
+<tr>
+    
+</tr>
+<tr>
+    <td>
         <img 
             src="images\Login.png" 
             alt="TiControla icon"
             style="width: 200px; 
-            /* float: left; */
             margin-right: 10px;"
         />
-    </div>
-    <div style="margin-right: 10px;">
+    </td>
+    <td>
         <img 
             src="images\Perfil.png" 
             alt="TiControla icon"
@@ -29,8 +26,8 @@ style="
             /* float: left; */
             margin-right: 10px;"
         />
-    </div>
-    <div>
+    </td>
+    <td>
         <img 
             src="images\Home.png" 
             alt="TiControla icon"
@@ -38,8 +35,9 @@ style="
             /* float: left; */
             margin-right: 10px;"
         />
-    </div>
-</div>
+    </td>
+</tr> 
+</table>
 
 Link do protótipo do projeto completo: 
 

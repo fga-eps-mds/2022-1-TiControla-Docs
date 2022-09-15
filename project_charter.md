@@ -1,5 +1,4 @@
-# Termo de Abertura do Projeto
-
+# Project Charter
 ## Sumário
 
 1. [Introdução](#intro)
