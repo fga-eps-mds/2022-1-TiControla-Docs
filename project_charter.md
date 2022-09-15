@@ -1,13 +1,4 @@
-# TAP
-
-# ✅ Termo de Abertura do Projeto
-
-|Data      |Versão|Descrição     |Autor(es)               |
-|----------|------|--------------|------------------------|
-|13/08/2022|0.1   |Versão inicial|Mateus de Siqueira Silva|
-|          |0.2   |              |                        |
-|          |0.3   |              |                        |
-
+# Termo de Abertura do Projeto
 
 ## Sumário
 
@@ -82,9 +73,9 @@ Consideramos também os dados do Distrito Federal
 |Desenvolvedores|7         |R$ 3.455                |R21, 60     |R$ 36.228,00|
 |Arquiteto |1         |R$ 6.000                |R$ 37,50    |R$ 9.000,00 |
 |DevOps    |1         |R$ 7.000                |R$ 43,75    |R$ 10.500,00|
-|Scrum Master|2         |R$ 7.666                |R$ 47,91    |R$ 11.498,00|
+|Scrum Master|1         |R$ 7.666                |R$ 47,91    |R$ 7.666,00|
 |Product Owner|1         |R$ 10.000               |R$ 62,50    |R$ 15.000,00|
-|Total     |          |                        |            |R$ 82.226   |
+|Total     |          |                        |            |R$ 74.560,00   |
 
 
 ### Custo de Equipamentos
@@ -118,10 +109,10 @@ Consideramos também os dados do Distrito Federal
 
 |Custo     |Valor Total|
 |----------|-----------|
-|Recursos Humanos|R$ 82.226  |
+|Recursos Humanos|R$ 74.560  |
 |Custo de Equipamentos|R$ 30.103  |
 |Ferramentas e Softwares|R$ 0       |
-|Total     |R$ 112.329,00|
+|Total     |R$ 104.663,00|
 
 # <a id="stake"></a>7 - Lista das partes interessadas
 
@@ -133,11 +124,11 @@ Pessoas consumistas que tem dificuldades de manter seus gastos sob controle, pes
 
  A equipe de Desenvolvimento de Software é composta por alunos da disciplina Métodos de Desenvolvimento de Software, do curso Engenharia de Software, do campus do Gama da UnB.
 
-Disciplina ministrada e orientada pela Prof. Carla S. R. Aguiar, do período 2020/2.
+Disciplina ministrada e orientada pela Prof. Carla S. R. Aguiar, do período 2020/2.
 
 |Nome      |Github|Email                    |
 |----------|------|-------------------------|
-|Leonardo Michalski Miranda|http://github.com/leommiranda|leonardomichalskim@gmail.com|
+|Leonardo Michalski Miranda|http://github.com/leomichalski|leonardomichalskim@gmail.com|
 |Milena Beatriz Aires de Santana Dias|https://github.com/MaltaLiz/|mbadsdias@gmail.com      |
 |Rodrigo de Andrade Lima Orlandi|https://github.com/OrlandiRodrigo|digoalorlandi@gmail.com  |
 |Lizandra Regis Malta|https://github.com/MaltaLiz|lizlrmalta@gmail.com     |
@@ -148,11 +139,11 @@ Disciplina ministrada e orientada pela Prof. Carla S. R. Aguiar, do período 20
 
 # <a id="requiaprov"></a> 8 - Requisitos para aprovação do Projeto
 
-Para a aprovação do Projeto será necessário a validação da Prof. Carla Silva Rocha Aguiar, que estará avaliando o projeto. O Projeto deverá estar funcionando de acordo com as metas propostas ao longo de sua realização e estarem alinhas com os tópicos de avaliação da professora.
+Para a aprovação do Projeto será necessário a validação da Prof. Carla Silva Rocha Aguiar, que estará avaliando o projeto. O Projeto deverá estar funcionando de acordo com as metas propostas ao longo de sua realização e estarem alinhas com os tópicos de avaliação da professora.
 
 # 9 - <a id="gerente"></a>Gerentes do Projeto
 
-- Nome: Leonardo Michalski Miranda e Milena Beatriz Aires de Santana Dias .
+- Nome: Leonardo Michalski Miranda.
 - Responsabilidade: Gerenciar e garantir o desenvolvimento do projeto.
 - Nível de autoridade: Alunos da disciplina Métodos de Desenvolvimento de Software, do curso Eng. de Software - UnB, FGA.
 
