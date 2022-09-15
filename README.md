@@ -9,17 +9,7 @@
 # TI Controla
 ## Aplicativo de Finanças Pessoais
 
-# Lista de integrantes do grupo 1
-
-|Nome      |Github|Email                    |
-|----------|------|-------------------------|
-|Leonardo Michalski Miranda|http://github.com/leommiranda|leonardomichalskim@gmail.com|
-|Milena Beatriz Aires de Santana Dias|https://github.com/MaltaLiz/|mbadsdias@gmail.com      |
-|Rodrigo de Andrade Lima Orlandi|https://github.com/OrlandiRodrigo|digoalorlandi@gmail.com  |
-|Lizandra Regis Malta|https://github.com/MaltaLiz|lizlrmalta@gmail.com     |
-|Henrique Galdino Couto|https://github.com/hgaldino05|hgaldino05@gmail.com     |
-|Mateus de Siqueira|https://github.com/mateus-de-siqueira/|mateusiqueira.s@gmail.com|
-|Rodolfo Cabral Neves|https://github.com/roddas/|roddas360@gmail.com      |        |
+SE C TÁ LENDO ISSAQUI, TÁ SÓ NO README POR ALGUM MOTIVO PORRAAAAAAAAAAAAAAAAAAAA
 
 ## Imagens das interfaces do app
 
