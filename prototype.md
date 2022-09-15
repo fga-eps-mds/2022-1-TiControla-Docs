@@ -1,46 +1,6 @@
-### 1. Introdução
-Este documento contemplará as informações acerca de quaisquer protótipos que forem criados para a construção da aplicação mobile.
+# Protótipo da aplicação
 
-### 2. Protótipo de Alta Fidelidade
+Este documento contemplará as informações acerca de quaisquer protótipos que forem criados para a construção da aplicação mobile. Para a concepção do mesmo foi utilizado
+a ferramenta [FIGMA](https://www.figma.com/), implementando conceitos de design moderno como o [Flat UI Design](https://elementor.com/blog/flat-design/) .
 
-### 2.1 Telas
-
-<div 
-style="
-    width: 900px;
-    display: flex;
-    /* float: left; */
-    margin-right: 10px;"
->
-    <div style="margin-right: 10px;">
-        <img 
-            src="images\Login.png" 
-            alt="TiControla icon"
-            style="width: 200px; 
-            /* float: left; */
-            margin-right: 10px;"
-        />
-    </div>
-    <div style="margin-right: 10px;">
-        <img 
-            src="images\Perfil.png" 
-            alt="TiControla icon"
-            style="width: 200px; 
-            /* float: left; */
-            margin-right: 10px;"
-        />
-    </div>
-    <div>
-        <img 
-            src="images\Home.png" 
-            alt="TiControla icon"
-            style="width: 200px; 
-            /* float: left; */
-            margin-right: 10px;"
-        />
-    </div>
-</div>
-
-Link do protótipo do projeto completo: 
-
-https://www.figma.com/file/qTrJ6kkLHY6i9GkicwEGQP/TiControla?node-id=0%3A1
+Protótipo criado por [Lizandra Regis Malta](https://github.com/MaltaLiz). Link do protótipo do projeto completo:  [Protótipo de alta fidelidade](https://www.figma.com/file/qTrJ6kkLHY6i9GkicwEGQP/TiControla?node-id=0%3A1)
