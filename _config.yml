@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/2022-1-TiControla-Docs/" # the subpath of your site, e.g. /blog
 url: "https://2022-1-TiControla.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  2022-1-TiControla-FrontEnd
+github_username:  fga-eps-mds/2022-1-TiControla-FrontEnd
 
 # Build settings
 theme: minima
