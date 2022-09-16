@@ -42,10 +42,12 @@ Foi o Scrum Master do projeto e uma peça importante para o grupo. Contribuiu ba
 
   ### 6.5 Lizandra Regis Malta
   
+Foi a PO do projeto, aprendeu muito durante a execução. Fazer parte de uma dinâmica de grupo dessa forma foi interessante e divertida. Porém um pouco mais de tempo seria útil, até para melhor execução. 
+  
   ### 6.6 Mateus de Siqueira
   
   ### 6.7 Rodolfo Cabral Neves
 
-##7. Conclusão 
+## 7. Conclusão 
 
 No início do projeto foram divididos os papéis e as responsabilidades entre BackEnd e FrontEnd, ficou estabelecido que a os membros estariam sempre se ajudando e em constate comunicação tudo em pról do produto, para que nós tivéssemos o melhor projeto possível, apesar das dificuldades encontradas no caminho em alguns aspectos, a responsabilidade estava acima de tudo para uma boa execução do projeto. A experiência obtida na matéria de MDS trouxe para todos os membros do grupo um grande amadurecimento, seja em relação a tecnologias tanto quanto ao gerenciamento de equipe. Os membros conversaram sobre o projeto como um todo e como os erros cometidos no projeto voltariam futuramente seja em relação a algum erro ou um BUG que passou despercebido no code review. Ao final do projeto vemos um resultado satisfatório, porém com o sentimento de que se tivéssemos um pouco mais de tempo e organização o resultado poderia ter sido melhor.
