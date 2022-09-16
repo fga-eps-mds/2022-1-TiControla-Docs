@@ -101,11 +101,11 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 
 ### 4.1 Visão Geral
 
-![https://user-images.githubusercontent.com/9947506/176018987-5ac04711-7778-4571-850d-b674dda9ab3e.png](https://user-images.githubusercontent.com/9947506/176018987-5ac04711-7778-4571-850d-b674dda9ab3e.png)
+![diagrama_corrigido.png](https://github.com/OrlandiRodrigo/2022-1-TiControla-Docs/tree/gh-pages/images/diagrama_corrigido.png)
 
 
 ### 4.2 Diagrama de pacotes
-![](/images/Diagrama%20-%20ER%20-%20TiControla%20-%20Diagrama%20de%20Pacotes.png)
+![diagrama_corrigido.png](https://github.com/OrlandiRodrigo/2022-1-TiControla-Docs/tree/gh-pages/images/diagrama_corrigido.png)
 
 ### 5.1 Banco de Dados
 
