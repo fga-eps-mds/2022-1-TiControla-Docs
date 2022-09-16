@@ -30,32 +30,32 @@ Por fim, o pricipal aprendizado tirado a partir do que foi dito anteriormente é
 
 No geral, o grupo teve as mesmas dificulades pessoais, mas juntos conseguiram progredir para entregar o melhor possível no tempo dado. 
 
-  ### 6.1 Henrique Galdino Couto
+### 6.1 Henrique Galdino Couto
 
 A maior dificuldade encontrada foi a falta de planejamento da rotina, onde se perdeu no calendário e acabou se atrasando em alguns âmbitos do projeto. A falta de comunicação e organização também esteve presente. Porém mesmo com as dificuldades encontradas conseguiu contribuir para o projeto e sempre se fez presente e ativo quando requisitado. 
 
-  ### 6.2 Rodrigo de Andrade Lima Orlandi
+### 6.2 Rodrigo de Andrade Lima Orlandi
 
 Satisfeito com o aprendizado adquirido, ganhou muitas experiências e novas capacidades durante a disciplina. 
 Porém acredita que o semestre foi muito apertado para a execução de um projeto desta proporção. Trabalhou no BackEnd e grande parte dos Docs, conseguiu aplicar conhecimentos e contribuir para a cexecução do projeto.
 
-  ### 6.3 Milena Beatriz Aires de Santana Dias
+### 6.3 Milena Beatriz Aires de Santana Dias
   
 Teve dificuldade em questão de experiência, onde não teve contato com algumas tecnologias utilizadas no projeto. Trabalhou no BackEnd e um pouco nos Docs. Organização também foi uns dos problemas. Apesar disso, contribuiu para o projeto e se fez presente. Adquiriu bastante experiência e capacitação. 
 
-  ### 6.4 Leonardo Michalski Miranda
+### 6.4 Leonardo Michalski Miranda
   
 Foi o Scrum Master do projeto e uma peça importante para o grupo. Contribuiu bastante com seus conhecimentos e experiências já obtidas. Sempre ativo e disponível no projeto. O negativo foi a falta de organização, assim como o grupo em geral. 
 
-  ### 6.5 Lizandra Regis Malta
+### 6.5 Lizandra Regis Malta
   
 Foi a PO do projeto, aprendeu muito durante a execução. Fazer parte de uma dinâmica de grupo dessa forma foi interessante e divertida. Porém um pouco mais de tempo seria útil, até para melhor execução. 
   
-  ### 6.6 Mateus de Siqueira
+### 6.6 Mateus de Siqueira
   
 Teve dificuldade na organização mas usou de todas as ferramentas adotadas pelo grupo para melhor execução do projet. Obteve um grande aprendizado na disciplina. Trabalhou no BackEnd e contribuiu bastante no projeto, sempre ativo e presente. 
   
-  ### 6.7 Rodolfo Cabral Neves
+### 6.7 Rodolfo Cabral Neves
   
 A maior dificuldade foi o retorno ao ensino presencial. Trabalhou no FrontEnd e conseguiu contribuir bastante para o mesmo. A falta de organização com as disciplinas também se fez presente. Porém foi eficiente e uma peça importante no grupo. 
 

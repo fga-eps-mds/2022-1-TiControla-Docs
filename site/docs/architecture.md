@@ -89,14 +89,13 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 ### 4.1 Banco de Dados
 
 #### 4.1.1 Entidades
+
 | Usuario | GastoCredito | GastoDebito | GastoFixo | CartaoCredito |
-|---------|--------------|-------------|-----------|---------------|
+| ------- | ------------ | ----------- | --------- | ------------- |
+| João | R$ 10 | R$199 | R$200 | Robs' Cartão |
 
 #### 4.1.2 Atributos
 
-<table>
-<tr></tr>
-<tr><td>
 
 | Usuario       | Tipos  |
 |---------------|--------|
@@ -107,7 +106,7 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | saldo         | double |
 | limiteMaximo  | double |
 
-</td><td>
+
 
 | GastoCredito      | Tipos  |
 |-------------------|--------|
@@ -120,7 +119,7 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | descricao         | string |
 | parcelas          | int    |
 | valor             | double |
-</td><td>
+
 
 | GastoDebito      | Tipos  |
 |-------------------|--------|
@@ -131,7 +130,7 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | nome              | string |
 | descricao         | string |
 | valor             | double |
-</td><td>
+
 
 | GastoFixo         | Tipos  |
 |-------------------|--------|
@@ -142,7 +141,7 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | nome              | string |
 | descricao         | string |
 | valor             | double |
-</td><td>
+
 
 | CartaoCredito     | Tipos  |
 |-------------------|--------|
@@ -150,7 +149,6 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | usuarioId         | int    |
 | apelidoCartao     | string |
 | limiteCredito     | double |
-</td><td>
- </table>
+
 
 
