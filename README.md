@@ -1,10 +1,8 @@
 ![Logo TiControla](https://user-images.githubusercontent.com/102192917/184401954-7b7c706b-c287-4c22-83b0-a3039213c627.jpg)
 
+# Aplicativo de Finanças Pessoais
 
-# TI Controla
-## Aplicativo de Finanças Pessoais
-
-# Lista de integrantes do grupo 1
+## Lista de integrantes do grupo 1
 
 |Nome      |Github|Email                    |
 |----------|------|-------------------------|
