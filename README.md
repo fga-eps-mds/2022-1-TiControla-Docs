@@ -1,10 +1,5 @@
-<img 
-    src="images\LogoTiControla.png" 
-    alt="TiControla icon"
-    style="width: 80px; 
-    /* float: left; */
-    margin-right: 10px;"
-/>
+![Logo TiControla](https://user-images.githubusercontent.com/102192917/184401954-7b7c706b-c287-4c22-83b0-a3039213c627.jpg)
+
 
 # TI Controla
 ## Aplicativo de Finanças Pessoais
@@ -57,8 +52,5 @@
 </tr> 
 </table>
 
-Link do protótipo do projeto completo: 
-
-https://www.figma.com/file/qTrJ6kkLHY6i9GkicwEGQP/TiControla?node-id=0%3A1
-
+Mais [aqui](/prototype.md).
 
