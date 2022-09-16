@@ -16,3 +16,7 @@ No BackEnd optamos por usar o Django Rest Framework para codar a api.
 ## 4. Capacitação 
 
 Foi feita uma tabela de conhecimento do grupo a cerca das habilidades que seriam necessárias inicialmente. A experinência dos membros foi um dos problemas encontrados, devido a esse fato utilizamos cerca de duas a três semanas de estudos focando no que seria mais urgente para iniciar o projeto. Com isso, os membros conseguiram obter uma capacidade e conhecimento maior para o projeto. O grupo teve um bom entrosamento, todos do grupo conseguiram se comunicar nas suas dificuldades e serem ajudados e também ajudarem quando era preciso. 
+
+## 5. Comunicação e Organização 
+
+O grande problema do grupo foi a comunicação e a organização. A comunicação ficou meio bagunçada devido ao uso direto do WhatsApp, onde mensagens se perdiam e acabavam ficando dispersas, porém, a preocupação de tudo estar correndo em ordem era sempre pautada. Após as aulas sempre acontecia uma conversa rápida de como estava correndo o projeto. Nossa organização também foi algo que deixou muito a desejar, principalmente nosso repositório que ficou uma completa bagunça pois apesar de estarmos fazendo o projeto, não estávamos atualizando nosso GitHub adequadamente e isso foi um grande erro apontado na R1, contudo decidimos dividir nosso projeto em 3 repositórios: BackEnd, FrontEnd e Docs. E então conseguimos nos organizar direito e ter uma visão melhor do projeto.  
