@@ -22,6 +22,14 @@ O grande problema do grupo foi a comunicação e a organização. A comunicaçã
 
 ## 6. Membros 
 
+O projeto se densenrolou de maneira que fez nascer um novo paradigma na mentalidade dos envolvidos. Foi feito o uso de outros tipos de ferramentas, não apenas ferrametas digitais, mas métodos de trabalho em grupo. Além disso, foi evidenciado que o uso dessas ferramentas digitais servem para facilitar e otimizar estes métodos, de modo que seja possível manter a produtividade na contribuição quanto à resolução de problemas, tanto em aspecto micro, no caso de um grupo de pessoas, quanto no aspecto macro como no caso das comunidades de software livre.
+
+Foi aprendido também que problemas de comunição sempre terão. Por isso, é importante fazer bem uso de todo ferramental possível para manter quem precisa saber atualizado sobre o que está ou não sendo feito. Digo 'quem precisa saber' pois, foi evidenciado também que algumas pessoas não precisam saber de tudo que se trata em outras áreas, mas o sufiente para que o projeto progrida.
+
+Por fim, o pricipal aprendizado tirado a partir do que foi dito anteriormente é que tão importante quanto aprender a usar a ferramenta em sí é saber usá-la para a resolução dos problemas da vida real e do cotidiano.
+
+No geral, o grupo teve as mesmas dificulades pessoais, mas juntos conseguiram progredir para entregar o melhor possível no tempo dado. 
+
   ### 6.1 Henrique Galdino Couto
 
 A maior dificuldade encontrada foi a falta de planejamento da rotina, onde se perdeu no calendário e acabou se atrasando em alguns âmbitos do projeto. A falta de comunicação e organização também esteve presente. Porém mesmo com as dificuldades encontradas conseguiu contribuir para o projeto e sempre se fez presente e ativo quando requisitado. 
@@ -45,7 +53,7 @@ Foi a PO do projeto, aprendeu muito durante a execução. Fazer parte de uma din
   
   ### 6.6 Mateus de Siqueira
   
-Teve dificuldade na organização e obteve um grande aprendizado na disciplina. Trabalhou no BackEnd e contribuiu bastante no projeto, sempre ativo e presente. 
+Teve dificuldade na organização mas usou de todas as ferramentas adotadas pelo grupo para melhor execução do projet. Obteve um grande aprendizado na disciplina. Trabalhou no BackEnd e contribuiu bastante no projeto, sempre ativo e presente. 
   
   ### 6.7 Rodolfo Cabral Neves
   
