@@ -40,4 +40,12 @@ Teve dificuldade em questão de experiência, onde não teve contato com algumas
   
 Foi o Scrum Master do projeto e uma peça importante para o grupo. Contribuiu bastante com seus conhecimentos e experiências já obtidas. Sempre ativo e disponível no projeto. O negativo foi a falta de organização, assim como o grupo em geral. 
 
+  ### 6.5 Lizandra Regis Malta
   
+  ### 6.6 Mateus de Siqueira
+  
+  ### 6.7 Rodolfo Cabral Neves
+
+##7. Conclusão 
+
+No início do projeto foram divididos os papéis e as responsabilidades entre BackEnd e FrontEnd, ficou estabelecido que a os membros estariam sempre se ajudando e em constate comunicação tudo em pról do produto, para que nós tivéssemos o melhor projeto possível, apesar das dificuldades encontradas no caminho em alguns aspectos, a responsabilidade estava acima de tudo para uma boa execução do projeto. A experiência obtida na matéria de MDS trouxe para todos os membros do grupo um grande amadurecimento, seja em relação a tecnologias tanto quanto ao gerenciamento de equipe. Os membros conversaram sobre o projeto como um todo e como os erros cometidos no projeto voltariam futuramente seja em relação a algum erro ou um BUG que passou despercebido no code review. Ao final do projeto vemos um resultado satisfatório, porém com o sentimento de que se tivéssemos um pouco mais de tempo e organização o resultado poderia ter sido melhor.
