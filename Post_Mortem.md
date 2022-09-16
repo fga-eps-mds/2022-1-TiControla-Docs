@@ -11,3 +11,4 @@ A definição do escopo não foi um grande problema, a escolha foi feita em grup
 ## 3. Tecnologias 
 
 As tecnologias usadas foram discutas em grupo levando em conta se algum membro já teria experiência em alguma delas que poderia ser aplicada em conjunto. 
+No BackEnd optamos por usar o Django Rest Framework para codar a api. 
