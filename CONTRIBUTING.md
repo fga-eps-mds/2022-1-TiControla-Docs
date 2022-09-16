@@ -18,7 +18,6 @@
     - [2.1.1 Frameworks](#211-frameworks)
   - [2.2 Testes](#22-testes)
     - [2.2.1 Django Rest Framework (DRF)](#221-django-rest-framework-drf)
-    - [2.2.2 React Native](#222-react-native)
   - [2.3 Formatação de código](#23-formatação-de-código)
     - [2.3.1 Python](#231-python)
     - [2.3.2 Typescript](#232-typescript)
@@ -105,20 +104,13 @@ nome da branch: django-api-authentication
 
 ### 1.2.3 Padrão de pull request
 
-<strong>Descrição:</strong>
-Escreva uma breve descrição sobre o que o Pull Request resolve
+Cada Pull Request (PR) deve se referir a um conjunto de issues, e não deve fazer mais do que o que está previsto em seu conjunto de issues. Caso algum(a) contribuidor(a) queira saber mais sobre o PR, basta que clique nos links das suas issues. Existe uma palavra mágica do github para fechar uma issue quando um PR for fechado e integrado à branch "main", a palavra mágica é "resolve". Use o seguinte padrão de mensagem de Pull Request:
 
-<strong>Porque este Pull Request é necessário?</strong>
-Descreva o motivo da realização do documento
+Este PR resolve #NUMERO_DA_ISSUE, resolve #NUMERO_DA_ISSUE e resolve #NUMERO_DA_ISSUE. Está relacionado às issues #NUMERO_DA_ISSUE, #NUMERO_DA_ISSUE, #NUMERO_DA_ISSUE e #NUMERO_DA_ISSUE.
 
-<strong>Critérios de aceitação
-(Exemplos de critérios de aceitação)</strong>:
+Exemplo:
 
-1. [ ] Todas as informações necessárias estão presentes?
-2. [ ] O documento está escrito de forma concisa?
-3. [ ] A ortografia do documento está correta?
-
-Resolve #(numero_da_issue)
+Este PR resolve #46, resolve #47, resolve #48, resolve #77 e resolve #78.
 
 ## 1.3 Issues
 ### 1.3.1 Issue templates
@@ -128,7 +120,7 @@ O ideal é que todas as issues sigam os templates, porém os templates são só 
 
 ## 1.5 Releases
 ### 1.5.1 Versioning
-TODO
+Cada tag de cada release segue o seguinte padrão: vx.y.z. Se o valor x for menor do que 1, significa que a release não está disponível ao público ainda. O valor y deve ser incrementado em 1 quando houver mudanças que alteram como o usuário usa o aplicativo ou a API (mudança na interface do app, mudança nos endpoints da API e afins). O valor z deve ser incrementado em 1 quando as mudanças feitas não alterarem como o usuário usa o aplicativo ou a API (otimização de código, resolver bugs de segurança e afins).
 
 # 2. Integração e entrega de código
 ## 2.1 CI/CD 
@@ -141,14 +133,14 @@ Decidimos usar o [GitHub Actions](https://github.com/features/actions) para faze
 ### 2.2.1 Django Rest Framework (DRF)
 O DRF auxilia de certa forma a implementação de testes, visto que descreve em sua documentação oficial uma série de classes e recursos com este fim, como a APIClient e APITestCase.
 
-### 2.2.2 React Native
-TODO
-
 ## 2.3 Formatação de código
 ### 2.3.1 Python
-[PEP 8](https://peps.python.org/pep-0008/) com [autopep8](https://pypi.org/project/autopep8/)
+[PEP 8](https://peps.python.org/pep-0008/)
 
-### 2.3.2 Dockerfile
+### 2.3.2 Typescript
+[eslint](https://eslint.org/)
+
+### 2.3.3 Dockerfile
 [hadolint](https://github.com/hadolint/hadolint)
 
 ## 2.4 Ambiente de desenvolvimento
