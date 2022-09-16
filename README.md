@@ -1,4 +1,3 @@
-a
 <img 
     src="images\LogoTiControla.png" 
     alt="TiControla icon"
