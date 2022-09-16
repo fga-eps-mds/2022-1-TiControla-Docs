@@ -109,18 +109,21 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 ### 5.1 Banco de Dados
 
 #### 5.1.1 Entidades
+
+Entidades Confirmadas:
+
 | Despesas | Usuários |
-|----------|----------|
+| --- | --- |
+| R$ 10 | usuario_teste |
 
 #### 5.1.2 Atributos
 
-<table>
-<tr>
-</tr>
-<tr><td>
+Lista de atributos principais das entidades necessárias para o projeto.
+
+# Usuário (user e user_data, no código):
 
 | Usuário       | Tipos  |
-|---------------|--------|
+| --- | --- |
 | ID            | int    |
 | Nome          | string |
 | Email         | string |
@@ -129,10 +132,10 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | Limite Máximo | double |
 | Limite Mínimo | double | 
 
-</td><td>
+# Cartão (cartao, no código):
 
 | Despesa           | Tipos  |
-|-------------------|--------|
+| --- | --- |
 | ID                | int    |
 | Código            | string |
 | Tipo              | string |
@@ -142,7 +145,7 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | Descrição         | double |
 | Valor             | double |
 | Parcelas          | string |
-</td></tr> </table>
+
      
 
 #### 5.1.2 Relacionamentos

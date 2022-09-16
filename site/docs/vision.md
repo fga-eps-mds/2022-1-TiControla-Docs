@@ -97,7 +97,6 @@ Lista de categorias de prioridades para requisitos
 
 Lista de requisitos funcionais
 
-<!-- | Identificador | Descrição | Depende de | Prioridade | -->
 | Identificador | Descrição | Prioridade |
 | --- | --- | --- |
 | RF001 | O usuário deve ser capaz de se cadastrar no sistema | Alta |
