@@ -2,6 +2,13 @@
 
 # Aplicativo de Finanças Pessoais
 
+## Repositórios do projeto
+- [Docs](https://github.com/fga-eps-mds/2022-1-TiControla-Docs)
+- [FrontEnd](https://github.com/fga-eps-mds/2022-1-TiControla-FrontEnd)
+- [BackEnd](https://github.com/fga-eps-mds/2022-1-TiControla-BackEnd)
+- [IaC](https://github.com/fga-eps-mds/2022-1-TiControla-IaC)
+
+
 ## Lista de integrantes do grupo 1
 
 |Nome      |Github|Email                    |
