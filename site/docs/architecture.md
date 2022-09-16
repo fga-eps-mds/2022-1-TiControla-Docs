@@ -101,10 +101,10 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 
 ### 4.1 Visão Geral
 
-![Diagrama Corrigido](/site/docs/images/diagrama_corrigido.png)
+![Diagrama Corrigido](/2022-1-TiControla-Docs/site/docs/assets/diagrama_corrigido.png)
 
 ### 4.2 Diagrama de pacotes
-<img src="/docs/images/diagrama_corrigido.png" alt="Diagrama Corrigido" style="height: 100px; width:100px;"/>
+<img src="/docs/images/diagrama_corrigido.png" alt="Diagrama_2" style="height: 100px; width:100px;"/>
 
 ### 5.1 Banco de Dados
 
