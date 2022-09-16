@@ -20,3 +20,8 @@ Foi feita uma tabela de conhecimento do grupo a cerca das habilidades que seriam
 ## 5. Comunicação e Organização 
 
 O grande problema do grupo foi a comunicação e a organização. A comunicação ficou meio bagunçada devido ao uso direto do WhatsApp, onde mensagens se perdiam e acabavam ficando dispersas, porém, a preocupação de tudo estar correndo em ordem era sempre pautada. Após as aulas sempre acontecia uma conversa rápida de como estava correndo o projeto. Nossa organização também foi algo que deixou muito a desejar, principalmente nosso repositório que ficou uma completa bagunça pois apesar de estarmos fazendo o projeto, não estávamos atualizando nosso GitHub adequadamente e isso foi um grande erro apontado na R1, contudo decidimos dividir nosso projeto em 3 repositórios: BackEnd, FrontEnd e Docs. E então conseguimos nos organizar direito e ter uma visão melhor do projeto.  
+
+## 6. Membros 
+
+  ### 6.1 Henrique Galdino Couto
+  
