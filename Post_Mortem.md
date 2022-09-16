@@ -46,7 +46,11 @@ Foi a PO do projeto, aprendeu muito durante a execução. Fazer parte de uma din
   
   ### 6.6 Mateus de Siqueira
   
+Teve dificuldade na organização e obteve um grande aprendizado na disciplina. Trabalhou no BackEnd e contribuiu bastante no projeto, sempre ativo e presente. 
+  
   ### 6.7 Rodolfo Cabral Neves
+  
+A maior dificuldade foi o retorno ao ensino presencial. Trabalhou no FrontEnd e conseguiu contribuir bastante para o mesmo. A falta de organização com as disciplinas também se fez presente. Porém foi eficiente e uma peça importante no grupo. 
 
 ## 7. Conclusão 
 
