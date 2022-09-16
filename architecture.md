@@ -86,17 +86,13 @@ A infraestrutura do backend é baseada em contêineres Docker (tanto para a API 
 
 O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que suas funcionalidades foram suficientemente testadas.
 
-## 4. Diagrama de pacotes
+### 4.1 Banco de Dados
 
-![](/images/Diagrama%20-%20ER%20-%20TiControla%20-%20Diagrama%20de%20Pacotes.png)
-
-### 5.1 Banco de Dados
-
-#### 5.1.1 Entidades
+#### 4.1.1 Entidades
 | Despesas | Usuários |
 |----------|----------|
 
-#### 5.1.2 Atributos
+#### 4.1.2 Atributos
 
 <table>
 <tr>
