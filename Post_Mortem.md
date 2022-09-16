@@ -10,8 +10,7 @@ A definição do escopo não foi um grande problema, a escolha foi feita em grup
 
 ## 3. Tecnologias 
 
-As tecnologias usadas foram discutas em grupo levando em conta se algum membro já teria experiência em alguma delas que poderia ser aplicada em conjunto. 
-No BackEnd optamos por usar o Django Rest Framework para codar a api. 
+As tecnologias usadas foram discutas em grupo levando em conta se algum membro já teria experiência em alguma delas que poderia ser aplicada em conjunto. Foi feita uma pesquisa de quais seriam as melhores e que se encaixavam melhor no nosso grupo e projeto. Com isso foram feitas as escolhas das tecnologias usadas no BackEnd, FrontEnd, Docs e até mesmo para nossa organização de tarefas e comunicação. Todos os membros estavam cientes dos meios usados e com acesso aos mesmos. 
 
 ## 4. Capacitação 
 
