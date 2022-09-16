@@ -25,7 +25,7 @@ Facilitar o gerenciamento das finanças de uma pessoa com a vida financeira ativ
 
 ### 2.1 Oportunidade de negócios
 
-TODO
+Tendo em vista que a populção possui certo déficit quanto à educação financeira o projeto tem potencial de gerar valor, pois a partir dele é possível criar um serviço que visa auxiliar a população a gerir suas finanças.    
 
 ### 2.2 Descrição do problema
 
@@ -36,7 +36,7 @@ TODO
 
 ### 2.3 Descrição da posição do produto
 
-TODO
+Para pessoas com a vida financeira ativa. O TiControla é um serviço digital (aplicativo) que auxilia no gerenciamento dos gastos financeiros. Diferentemente do Mobills, um aplicativo para gererir as finanças que possui gráficos e relatórios avançados, além de outras funcionalidades e de outros aplicativos similares. O TiControla visa possuir uma funcionalidade de leitura de gastos por meio de imagens e forncer sugestões para diminuir os gastos por meio de analise interna.
 
 ## **3. Descrição dos Envolvidos e dos Usuários**
 
@@ -59,8 +59,16 @@ O "usuário anônimo" é uma pessoa que, por necessidade de organizar sua vida f
 
 ### 4. Alternativas e Concorrentes
 
-TODO
-
+- Mobills
+- Orçamento Fácil;
+- Organizze;
+- Minhas economias;
+- Money Lover;
+- Monefy;
+- CoinKeeper;
+- Guiabolso;
+- Toshl Finance;
+- Wisecash.
 ## 5. Restrições
 
 Listagem de restrições externas e outras dependências:
@@ -113,3 +121,6 @@ Lista de requisitos funcionais
 
 
 ## Referências
+[https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document](https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document)
+
+[https://www.mobills.com.br/blog/aplicativos/apps-de-controle-financeiro/](https://www.mobills.com.br/blog/aplicativos/apps-de-controle-financeiro/)

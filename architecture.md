@@ -34,22 +34,35 @@ A aplicação possui vários núcleos independentes e os mesmos interajem-se ent
 ### 2.1. Servidor central
 Responsável pelo recebimento e processamento das demandas realizadas pelos usuários do frontend.
 
-### 2.1.1. ![Django REST Framework]()
-TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido.
+### 2.1.1. [Django REST Framework](https://www.django-rest-framework.org/)
+Django é um framework web Python de alto nível que permite o rápido desenvolvimento de sites seguros e de fácil manutenção. Com isto dito, o Django REST Framework ou DRF é uma biblioteca que permite a construção de APIs REST utilizando a estrutura do Django. O foco aqui é o desenvolvimento de APIs web de forma simples e ágil. O Django Rest gera uma API navegável que auxilia na usabilidade para os desenvolvedores. Além disso, possui um sistema de autenticação e [serialização](https://cursos.alura.com.br/forum/topico-serializacao-e-desserializacao-110845) dos dados.
 
-### 2.1.2. ![MySQL]()
-TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido.
+Utilizamos essa biblioteca para o desenvolvimento, pois ela é gratuita e de código aberto, tem uma comunidade próspera e ativa, ótima documentação e muitas opções de suporte gratuito e pago. Além de ser completa, versátil e segura.
 
+### 2.1.2. [MySQL](https://www.mysql.com/)
+O MySQL é um sistema gerenciador de banco de dados relacional. Possui flexibilidade, facilidade de uso e alto desempenho. Além disso, alguns membros do time tem familiaridade com a ferramenta.
+
+### 2.1.3. [Gunicorn](https://gunicorn.org/)
+O comando padrão do DRF para começar um servidor ("python manage.py runserver") não foi feito para ser usado na produção. Ele não passou por testes de segurança nem testes de performance. Além disso, os desenvolvedores do DRF atualmente não tem intenção de fazer um comando que crie um servidor seguro ([fonte](https://docs.djangoproject.com/en/4.0/ref/django-admin/#runserver)). Logo, tivemos que substituir tal comando e decidimos usar o gunicorn pela grande quantidade de tutoriais disponíveis na internet que o utilizam.
+
+### 2.1.4. [Kubernetes](https://kubernetes.io/)
+Escolhemos o Kubernetes para realizar a orquestração dos contêineres do servidor. Por um lado, é uma ferramenta difícil de se aprender, e requer um nível alto de dedicação para começar a lidar com ela. Por outro lado, uma vez configurada, é relativamente fácil de reusar para diversos projetos de software. Aliada com um vasto ecossistema (e.g [helm](https://helm.sh/)), facilita servir a API com HTTPS, fazer atualizações da API sem downtime, escalar a API conforme a demanda dos usuários, monitorar métricas e coletar logs.
+
+### 2.1.5. [Terraform](https://www.terraform.io/)
+O Terraform é usado para configurar a infraestrutura. Em vez de usar interfaces gráficas efetivas em prender o desenvolvedor ao cloud provider e dificultadoras do reuso de uma configuração, o projeto usa infraestrutura como código. Assim é possível configurar ou reconfigurar a nuvem do projeto em questão de minutos.
 
 ### 2.2. Aplicativo mobile
 Responsável pela visualização de dados e interação com o usuário.
 
-### 2.2.1. ![React Native]()
-TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido.
+### 2.2.1. [React Native](https://reactnative.dev/)
+Baseado no [React](https://pt-br.reactjs.org), framework JS para desenvolvimento web, o [React Native](https://reactnative.dev) possibilita a criação de aplicações móvel multiplataforma (Android e iOS) utilizando apenas Javascript. Porém, diferente de outros frameworks com esta mesma finalidade (Cordova, por exemplo), todo o código desenvolvido com o React Native é convertido para linguagem nativa do sistema operacional, o que torna o app muito mais fluido.
 
-### 2.2.2. ![Expo]()
-TODO: Escrever pra que serve o framework e por qual motivo o framework foi escolhido.
+Levando em consideração que o núcleo do projeto é um aplicativo para smartphones o react native é ferramenta base para o projeto.
 
+### 2.2.2. [Expo](https://expo.dev/)
+O [Expo](https://expo.dev) é uma ferramenta que facilita no desenvolvimento de aplicativos mobile com **React Native**, já que ele abstrai todas as partes complexas de configuração do ambiente e te permite acesso rápido e fácil a várias API’s nativas. Com ele é possível usar a API de câmera e notificações, por exemplo, sem muita dificuldade, já que não é necessário fazer nenhuma configuração de API.
+
+Utilizamos o expo para auxiliar o React Native no uso dos módulos dos smartphones.
 
 ## 3. Metas e Restrições arquiteturais
 
@@ -73,31 +86,71 @@ A infraestrutura do backend é baseada em contêineres Docker (tanto para a API 
 
 O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que suas funcionalidades foram suficientemente testadas.
 
-## 4. Visão Lógica
+### 4.1 Banco de Dados
 
-### 4.1 Visão Geral
+#### 4.1.1 Entidades
+| Usuario | GastoCredito | GastoDebito | GastoFixo | CartaoCredito |
+|---------|--------------|-------------|-----------|---------------|
 
-![https://user-images.githubusercontent.com/9947506/176018987-5ac04711-7778-4571-850d-b674dda9ab3e.png](https://user-images.githubusercontent.com/9947506/176018987-5ac04711-7778-4571-850d-b674dda9ab3e.png)
+#### 4.1.2 Atributos
+
+<table>
+<tr></tr>
+<tr><td>
+
+| Usuario       | Tipos  |
+|---------------|--------|
+| id            | int    |
+| nome          | string |
+| email         | string |
+| senha         | string |
+| saldo         | double |
+| limiteMaximo  | double |
+
+</td><td>
+
+| GastoCredito      | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| apelidoCartao     | string |
+| data              | string |
+| tipo              | string |
+| nome              | string |
+| descricao         | string |
+| parcelas          | int    |
+| valor             | double |
+</td><td>
+
+| GastoDebito      | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| data              | string |
+| tipo              | string |
+| nome              | string |
+| descricao         | string |
+| valor             | double |
+</td><td>
+
+| GastoFixo         | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| data              | string |
+| tipo              | string |
+| nome              | string |
+| descricao         | string |
+| valor             | double |
+</td><td>
+
+| CartaoCredito     | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| apelidoCartao     | string |
+| limiteCredito     | double |
+</td><td>
+ </table>
 
 
-### 4.2 Diagrama de pacotes
-TODO
-
-### 5.1 Banco de Dados
-
-#### 5.1.1 Entidades
-TODO
-
-#### 5.1.2 Atributos
-TODO
-
-#### 5.1.2 Relacionamentos
-TODO
-
-#### 5.1.3 Diagrama Entidade-Relacionamento
-TODO
-
-#### 5.1.4 Diagrama Lógico de Dados
-TODO
-
-## Referências

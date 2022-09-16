@@ -18,7 +18,6 @@
     - [2.1.1 Frameworks](#211-frameworks)
   - [2.2 Testes](#22-testes)
     - [2.2.1 Django Rest Framework (DRF)](#221-django-rest-framework-drf)
-    - [2.2.2 React Native](#222-react-native)
   - [2.3 Formatação de código](#23-formatação-de-código)
     - [2.3.1 Python](#231-python)
     - [2.3.2 Typescript](#232-typescript)
@@ -83,10 +82,35 @@ nome da branch: django-api-authentication
 ```
 
 ### 1.2.2 Code reviews
-TODO
+
+- **Entenda o que foi realizado**
+
+  Para que o revisor consiga ter uma perspectiva completa do que está revisando, não basta que ele entenda bem da parte técnica. É muito importante saber, também, onde o desenvolvedor quer chegar com aquela solução, seja ela a correção de um bug ou a entrega de um novo processo no sistema.
+
+- **Crie cenários e execute testes das novas funcionalidades**
+
+  Antes da revisão de código propriamente dita, deve-se executar testes no máximo de cenários possíveis em cima do que foi desenvolvido. Não utilize apenas os **casos de teste** que o desenvolvedor criou, tente pensar em novos cenários e até mesmo agir como um usuário inexperiente, buscando diversas formas de alcançar os mesmos resultados. Nesse momento, podem surgir novas ideias que não haviam sido consideradas em tempo de desenvolvimento.
+
+- **Realize a revisão fazendo perguntas coerentes**
+
+  Quando chega a hora da revisão, é sempre bom fazer as perguntas certas como “o código faz sentido?”, “essa função poderia ser escrita de uma forma mais legível?”.
+
+  Se perguntar se aquilo está realmente de acordo com um código limpo, é uma ótima maneira de manter a revisão pura sempre em foco e encontrar melhorias que podem ser expostas ao desenvolvedor.
+
+- **Vantagens de se realizar uma revisão de código**
+    - **Aumento da qualidade da entrega**
+    - ****Compartilhamento de conhecimento****
+    - ****Aumento da responsabilidade coletiva****
 
 ### 1.2.3 Padrão de pull request
-TODO
+
+Cada Pull Request (PR) deve se referir a um conjunto de issues, e não deve fazer mais do que o que está previsto em seu conjunto de issues. Caso algum(a) contribuidor(a) queira saber mais sobre o PR, basta que clique nos links das suas issues. Existe uma palavra mágica do github para fechar uma issue quando um PR for fechado e integrado à branch "main", a palavra mágica é "resolve". Use o seguinte padrão de mensagem de Pull Request:
+
+Este PR resolve #NUMERO_DA_ISSUE, resolve #NUMERO_DA_ISSUE e resolve #NUMERO_DA_ISSUE. Está relacionado às issues #NUMERO_DA_ISSUE, #NUMERO_DA_ISSUE, #NUMERO_DA_ISSUE e #NUMERO_DA_ISSUE.
+
+Exemplo:
+
+Este PR resolve #46, resolve #47, resolve #48, resolve #77 e resolve #78.
 
 ## 1.3 Issues
 ### 1.3.1 Issue templates
@@ -96,7 +120,7 @@ O ideal é que todas as issues sigam os templates, porém os templates são só 
 
 ## 1.5 Releases
 ### 1.5.1 Versioning
-TODO
+Cada tag de cada release segue o seguinte padrão: vx.y.z. Se o valor x for menor do que 1, significa que a release não está disponível ao público ainda. O valor y deve ser incrementado em 1 quando houver mudanças que alteram como o usuário usa o aplicativo ou a API (mudança na interface do app, mudança nos endpoints da API e afins). O valor z deve ser incrementado em 1 quando as mudanças feitas não alterarem como o usuário usa o aplicativo ou a API (otimização de código, resolver bugs de segurança e afins).
 
 # 2. Integração e entrega de código
 ## 2.1 CI/CD 
@@ -109,15 +133,12 @@ Decidimos usar o [GitHub Actions](https://github.com/features/actions) para faze
 ### 2.2.1 Django Rest Framework (DRF)
 O DRF auxilia de certa forma a implementação de testes, visto que descreve em sua documentação oficial uma série de classes e recursos com este fim, como a APIClient e APITestCase.
 
-### 2.2.2 React Native
-TODO
-
 ## 2.3 Formatação de código
 ### 2.3.1 Python
-[PEP 8](https://peps.python.org/pep-0008/) com [autopep8](https://pypi.org/project/autopep8/)
+[PEP 8](https://peps.python.org/pep-0008/)
 
 ### 2.3.2 Typescript
-TODO
+[eslint](https://eslint.org/)
 
 ### 2.3.3 Dockerfile
 [hadolint](https://github.com/hadolint/hadolint)
@@ -168,3 +189,5 @@ Licensed under the [MIT](https://github.com/fga-eps-mds/2022-1-TiControla-FrontE
 * [Naming branches](https://microsoft.github.io/code-with-engineering-playbook/source-control/naming-branches/)
 * [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 * [How to Contribute to Visual Studio Code](https://github.com/microsoft/vscode/wiki/How-to-Contribute)
+
+* [Code reviews](https://blog.convisoappsec.com/revisao-de-codigo-saiba-como-fazer-e-a-importancia-de-revisar/)
