@@ -48,9 +48,8 @@ O comando padrão do DRF para começar um servidor ("python manage.py runserver"
 ### 2.1.4. [Kubernetes](https://kubernetes.io/)
 Escolhemos o Kubernetes para realizar a orquestração dos contêineres do servidor. Por um lado, é uma ferramenta difícil de se aprender, e requer um nível alto de dedicação para começar a lidar com ela. Por outro lado, uma vez configurada, é relativamente fácil de reusar para diversos projetos de software. Aliada com um vasto ecossistema (e.g [helm](https://helm.sh/)), facilita servir a API com HTTPS, fazer atualizações da API sem downtime, escalar a API conforme a demanda dos usuários, monitorar métricas e coletar logs.
 
-
 ### 2.1.5. [Terraform](https://www.terraform.io/)
-
+O Terraform é usado para configurar a infraestrutura. Em vez de usar interfaces gráficas efetivas em prender o desenvolvedor ao cloud provider e dificultadoras do reuso de uma configuração, o projeto usa infraestrutura como código. Assim é possível configurar ou reconfigurar a nuvem do projeto em questão de minutos.
 
 ### 2.2. Aplicativo mobile
 Responsável pela visualização de dados e interação com o usuário.
@@ -87,13 +86,8 @@ A infraestrutura do backend é baseada em contêineres Docker (tanto para a API 
 
 O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que suas funcionalidades foram suficientemente testadas.
 
-## 4. Visão Lógica
+## 4. Diagrama de pacotes
 
-### 4.1 Visão Geral
-
-![https://user-images.githubusercontent.com/9947506/176018987-5ac04711-7778-4571-850d-b674dda9ab3e.png](https://user-images.githubusercontent.com/9947506/176018987-5ac04711-7778-4571-850d-b674dda9ab3e.png)
-
-### 4.2 Diagrama de pacotes
 ![](/images/Diagrama%20-%20ER%20-%20TiControla%20-%20Diagrama%20de%20Pacotes.png)
 
 ### 5.1 Banco de Dados
@@ -133,8 +127,4 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 | Valor             | double |
 | Parcelas          | string |
 </td></tr> </table>
-     
 
-#### 5.1.2 Relacionamentos
-#### 5.1.3 Diagrama Entidade-Relacionamento
-![](/images/Diagrama%20-%20ER%20-%20TiControla%20-%20Diagrama%20ER%20de%20banco%20de%20dados%20(p%C3%A9%20de%20galinha).png)
