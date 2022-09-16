@@ -24,4 +24,12 @@ O grande problema do grupo foi a comunicação e a organização. A comunicaçã
 ## 6. Membros 
 
   ### 6.1 Henrique Galdino Couto
+
+A maior dificuldade encontrada foi a falta de planejamento da rotina, onde se perdeu no calendário e acabou se atrasando em alguns âmbitos do projeto. A falta de comunicação e organização também esteve presente. Porém mesmo com as dificuldades encontradas conseguiu contribuir para o projeto e sempre se fez presente e ativo quando requisitado. 
+
+  ### 6.2 Rodrigo de Andrade Lima Orlandi
+
+Satisfeito com o aprendizado adquirido, ganhou muitas experiências e novas capacidades durante a disciplina. 
+Porém acredita que o semestre foi muito apertado para a execução de um projeto desta proporção. Trabalhou no BackEnd e grande parte dos Docs, conseguiu aplicar conhecimentos e contribuir para a cexecução do projeto.  
+
   
