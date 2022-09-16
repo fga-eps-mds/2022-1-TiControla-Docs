@@ -84,18 +84,24 @@ nome da branch: django-api-authentication
 
 ### 1.2.2 Code reviews
 
-<strong>Todos</strong>
+- **Entenda o que foi realizado**
 
-- Aceite que muitas decisões de programação são opiniões. Discuta as compensações, de sua preferência, e chegue a uma resolução rapidamente.
-- Pergunte; não faça exigências. ("O que você acha de nomear isso :user_id?")
-- Solicite esclarecimentos. ("Eu não entendi. Você pode esclarecer?")
-- Evite a propriedade seletiva do código. ("meu", "não meu", "seu")
-- Evite usar termos que possam ser vistos como se referindo a características pessoais. ("burro", "estúpido"). Suponha que todos sejam atraentes, inteligentes e bem-intencionados.
-- Seja explícito. Lembre-se que as pessoas nem sempre entendem suas intenções online.
-- Seja humilde. ("Não tenho certeza - vamos procurar.")
-- Não use hipérbole. ("sempre", "nunca", "infinitamente", "nada")
-- Não use sarcasmo.
-- Fale pessoalmente se houver muitos comentários "Não entendi" ou "Solução alternativa:". Poste um comentário de acompanhamento resumindo a discussão offline.
+  Para que o revisor consiga ter uma perspectiva completa do que está revisando, não basta que ele entenda bem da parte técnica. É muito importante saber, também, onde o desenvolvedor quer chegar com aquela solução, seja ela a correção de um bug ou a entrega de um novo processo no sistema.
+
+- **Crie cenários e execute testes das novas funcionalidades**
+
+  Antes da revisão de código propriamente dita, deve-se executar testes no máximo de cenários possíveis em cima do que foi desenvolvido. Não utilize apenas os **casos de teste** que o desenvolvedor criou, tente pensar em novos cenários e até mesmo agir como um usuário inexperiente, buscando diversas formas de alcançar os mesmos resultados. Nesse momento, podem surgir novas ideias que não haviam sido consideradas em tempo de desenvolvimento.
+
+- **Realize a revisão fazendo perguntas coerentes**
+
+  Quando chega a hora da revisão, é sempre bom fazer as perguntas certas como “o código faz sentido?”, “essa função poderia ser escrita de uma forma mais legível?”.
+
+  Se perguntar se aquilo está realmente de acordo com um código limpo, é uma ótima maneira de manter a revisão pura sempre em foco e encontrar melhorias que podem ser expostas ao desenvolvedor.
+
+- **Vantagens de se realizar uma revisão de código**
+    - **Aumento da qualidade da entrega**
+    - ****Compartilhamento de conhecimento****
+    - ****Aumento da responsabilidade coletiva****
 
 ### 1.2.3 Padrão de pull request
 
@@ -191,3 +197,5 @@ Licensed under the [MIT](https://github.com/fga-eps-mds/2022-1-TiControla-FrontE
 * [Naming branches](https://microsoft.github.io/code-with-engineering-playbook/source-control/naming-branches/)
 * [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 * [How to Contribute to Visual Studio Code](https://github.com/microsoft/vscode/wiki/How-to-Contribute)
+
+* [Code reviews](https://blog.convisoappsec.com/revisao-de-codigo-saiba-como-fazer-e-a-importancia-de-revisar/)
