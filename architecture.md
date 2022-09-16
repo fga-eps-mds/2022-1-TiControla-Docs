@@ -89,38 +89,68 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 ### 4.1 Banco de Dados
 
 #### 4.1.1 Entidades
-| Despesas | Usuários |
-|----------|----------|
+| Usuario | GastoCredito | GastoDebito | GastoFixo | CartaoCredito |
+|---------|--------------|-------------|-----------|---------------|
 
 #### 4.1.2 Atributos
 
 <table>
-<tr>
-</tr>
+<tr></tr>
 <tr><td>
 
-| Usuário       | Tipos  |
+| Usuario       | Tipos  |
 |---------------|--------|
-| ID            | int    |
-| Nome          | string |
-| Email         | string |
-| Senha         | string |
-| Saldo         | double |
-| Limite Máximo | double |
-| Limite Mínimo | double | 
+| id            | int    |
+| nome          | string |
+| email         | string |
+| senha         | string |
+| saldo         | double |
+| limiteMaximo  | double |
 
 </td><td>
 
-| Despesa           | Tipos  |
+| GastoCredito      | Tipos  |
 |-------------------|--------|
-| ID                | int    |
-| Código            | string |
-| Tipo              | string |
-| Apelido do Cartão | string |
-| Data              | double |
-| Categoria         | double |
-| Descrição         | double |
-| Valor             | double |
-| Parcelas          | string |
-</td></tr> </table>
+| id                | int    |
+| usuarioId         | int    |
+| apelidoCartao     | string |
+| data              | string |
+| tipo              | string |
+| nome              | string |
+| descricao         | string |
+| parcelas          | int    |
+| valor             | double |
+</td><td>
+
+| GastoDebito      | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| data              | string |
+| tipo              | string |
+| nome              | string |
+| descricao         | string |
+| valor             | double |
+</td><td>
+
+| GastoFixo         | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| data              | string |
+| tipo              | string |
+| nome              | string |
+| descricao         | string |
+| valor             | double |
+</td><td>
+
+| CartaoCredito     | Tipos  |
+|-------------------|--------|
+| id                | int    |
+| usuarioId         | int    |
+| apelidoCartao     | string |
+| limiteCredito     | double |
+</td><td>
+ </table>
+
 
