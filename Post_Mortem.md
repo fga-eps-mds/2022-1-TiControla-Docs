@@ -30,6 +30,14 @@ A maior dificuldade encontrada foi a falta de planejamento da rotina, onde se pe
   ### 6.2 Rodrigo de Andrade Lima Orlandi
 
 Satisfeito com o aprendizado adquirido, ganhou muitas experiências e novas capacidades durante a disciplina. 
-Porém acredita que o semestre foi muito apertado para a execução de um projeto desta proporção. Trabalhou no BackEnd e grande parte dos Docs, conseguiu aplicar conhecimentos e contribuir para a cexecução do projeto.  
+Porém acredita que o semestre foi muito apertado para a execução de um projeto desta proporção. Trabalhou no BackEnd e grande parte dos Docs, conseguiu aplicar conhecimentos e contribuir para a cexecução do projeto.
+
+  ### 6.3 Milena Beatriz Aires de Santana Dias
+  
+Teve dificuldade em questão de experiência, onde não teve contato com algumas tecnologias utilizadas no projeto. Trabalhou no BackEnd e um pouco nos Docs. Organização também foi uns dos problemas. Apesar disso, contribuiu para o projeto e se fez presente. Adquiriu bastante experiência e capacitação. 
+
+  ### 6.4 Leonardo Michalski Miranda
+  
+Foi o Scrum Master do projeto e uma peça importante para o grupo. Contribuiu bastante com seus conhecimentos e experiências já obtidas. Sempre ativo e disponível no projeto. O negativo foi a falta de organização, assim como o grupo em geral. 
 
   
