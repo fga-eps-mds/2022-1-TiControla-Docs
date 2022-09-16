@@ -98,7 +98,7 @@ O sistema deve ter uma cobertura mínima de testes de 90%, buscando garantir que
 
 ### 4.1 Visão Geral
 
-![Diagrama Corrigido](/2022-1-TiControla-Docs/site/docs/assets/diagrama_corrigido.png)
+![Diagrama Corrigido](/2022-1-TiControla-Docs/site/docs/assets/diagrama_corrigido_real.png)
 
 ### 4.2 Diagrama de pacotes
 <img src="/docs/images/diagrama_corrigido.png" alt="Diagrama_2" style="height: 100px; width:100px;"/>
