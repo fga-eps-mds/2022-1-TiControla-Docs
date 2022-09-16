@@ -1,4 +1,4 @@
-# Documento de arquitetura
+# Documento de Arquitetura
 
 ## 1. Introdução
 
