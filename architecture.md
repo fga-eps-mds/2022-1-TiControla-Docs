@@ -45,6 +45,13 @@ O MySQL é um sistema gerenciador de banco de dados relacional. Possui flexibili
 ### 2.1.3. [Gunicorn](https://gunicorn.org/)
 O comando padrão do DRF para começar um servidor ("python manage.py runserver") não foi feito para ser usado na produção. Ele não passou por testes de segurança nem testes de performance. Além disso, os desenvolvedores do DRF atualmente não tem intenção de fazer um comando que crie um servidor seguro ([fonte](https://docs.djangoproject.com/en/4.0/ref/django-admin/#runserver)). Logo, tivemos que substituir tal comando e decidimos usar o gunicorn pela grande quantidade de tutoriais disponíveis na internet que o utilizam.
 
+### 2.1.4. [Kubernetes](https://kubernetes.io/)
+Escolhemos o Kubernetes para realizar a orquestração dos contêineres do servidor. Por um lado, é uma ferramenta difícil de se aprender, e requer um nível alto de dedicação para começar a lidar com ela. Por outro lado, uma vez configurada, é relativamente fácil de reusar para diversos projetos de software. Aliada com um vasto ecossistema (e.g [helm](https://helm.sh/)), facilita servir a API com HTTPS, fazer atualizações da API sem downtime, escalar a API conforme a demanda dos usuários, monitorar métricas e coletar logs.
+
+
+### 2.1.5. [Terraform](https://www.terraform.io/)
+
+
 ### 2.2. Aplicativo mobile
 Responsável pela visualização de dados e interação com o usuário.
 
